@@ -1,2 +1,3 @@
-def test_func() -> str:
-    return "Hello world"
+class ChoresList:
+    def get_list(self):
+        pass
