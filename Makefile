@@ -1,4 +1,6 @@
-.PHONY: test mut serve
+.PHONY: all test mut serve
+
+all: test mut
 
 test:
 	sh ./scripts/unit_test.sh
