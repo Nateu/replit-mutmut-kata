@@ -1,0 +1,14 @@
+__pycache__
+venv
+.config
+.coverage
+.idea
+.mutmut-cache
+.mypy_cache
+.pyc
+.pytest_cache
+coverage_annotated
+htmlcov
+html/coverage
+html/mut
+nohup.outw
