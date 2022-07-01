@@ -25,9 +25,10 @@ Implement each task of the todo list below by doing the following:
   Make diner  
   Spoil the spouse  
 
-2. The list should be prioritized in a way that older items are at the top 
-3. Create a way to indicate that a chore is depending on another
-4. Dependencies should change the the prioritization; the thing that needs to go first will have to be before the others
+2. The list should be prioritized (one chore per priority) in a way that older items are at the top 
+3. Provide a way to pass along a priority
+4. Create a way to indicate that a chore is depending on another
+5. Dependencies should change the the prioritization; the thing that needs to go first will have to be just before the one that depends on it (i.e. the second one has a prio of +1 to the one before it)
 
 ### Why I use Makefiles
 * Another reason: [python path issues](https://stackoverflow.com/questions/54895002/modulenotfounderror-with-pytest)
